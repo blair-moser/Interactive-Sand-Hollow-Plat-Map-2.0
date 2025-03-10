@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Sand Hollow Plat Map</title>
+    <style>
+        #map { height: 700px; width: 100%; }
+    </style>
+</head>
+<body>
+    <h2>Interactive Sand Hollow Plat Map</h2>
+    <div id="map"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDexHeps8WESUMRN7wfvP_bHgwJ8rpLor4&callback=initMap" async defer></script>
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 14,
+                center: { lat: 37.15, lng: -113.38 },
+                mapTypeId: 'satellite'
+            });
+
+            // Define the image overlay bounds
+            var imageBounds = {
+                north: 37.17215,
+                south: 37.1294,
+                east: -113.35605,
+                west: -113.3924
+            };
+
+            // Add the plat map overlay
+            var platMapOverlay = new google.maps.GroundOverlay(
+                'https://i.imgur.com/muyVbDi.png',
+                imageBounds
+            );
+            platMapOverlay.setMap(map);
+
+            // Add a marker on the map
+            var locations = [
+                { 
+                    lat: 37.1485, 
+                    lng: -113.3878, 
+                    title: "Aerie Resort", 
+                    info: "<p>Nestled in a scenic setting, Aerie Resort offers a collection of comfortable and well-appointed vacation rentals, perfect for both small and large groups. Whether you're planning a family reunion, corporate retreat, or a getaway with friends, Aerie Resort provides spacious accommodations, with homes that can host up to 56 guests under one roof.</p> <p>Each home features inviting living spaces, well-equipped kitchens, and comfortable bedrooms, ensuring a relaxing and enjoyable stay. Guests have access to a community pool and large hot tub, ideal for unwinding after a day of adventure.</p> <p>With a focus on convenience and comfort, every home includes a variety of amenities to enhance your stay, from entertainment spaces to outdoor gathering areas. Aerie Resort is designed for connection and relaxation, offering a welcoming retreat for every occasion.</p>", 
+                    img: "https://i.imgur.com/lrpNuwh.jpg",
+                    link: "https://book.sandhollow.rentals/" 
+                },
+                {
+                    lat: 37.1371, 
+                    lng: -113.3763, 
+                    title: "Dixie Heights Development", 
+                    info: "This is Project 1 details.", 
+                    img: "",
+                    link: "" 
+                },
+                { 
+                    lat: 37.1529, 
+                    lng: -113.3867, 
+                    title: "Adventus", 
+                    info: "<p>Adventus is more than just a hotel—it’s a destination designed for those who live boldly and seek the perfect balance of adventure and relaxation. Offering a mix of hotel rooms, condos, and exclusive luxury penthouse suites, Adventus provides flexible ownership opportunities, including fractional ownership in 13ths for those looking to invest in their ideal getaway.</p> <p>At the heart of Adventus is its 30,000 sq. ft., two-story destination gym, the premier attraction for fitness enthusiasts, influencers, and wellness-minded travelers. This state-of-the-art facility hosts high-energy classes, exclusive training events, and educational programs, all designed to inspire and elevate a healthy lifestyle. Tied to the gym is a chef’s kitchen, where guests can learn about nutrition, meal prep, and fueling their bodies for peak performance.</p> <p>Beyond fitness, Adventus delivers an all-encompassing experience. The first floor features 50,000 sq. ft. of retail space, with shops and services tailored to adventure seekers. Additionally, four restaurant pads provide diverse dining options, including a high-end rooftop bar and restaurant with breathtaking views—perfect for unwinding after a day of exploration.</p> <p>For those looking to relax, the third-story pool deck offers stunning vistas and a tranquil escape from the day’s adventures. Whether you’re here to push your limits, find balance, or simply enjoy a vibrant and energetic atmosphere, Adventus is where adventure meets lifestyle in a way that’s never been done before.</p>", 
+                    img: "https://i.imgur.com/RQUEEXu.jpg", 
+                    link: ""
+                },
+                { 
+                    lat: 37.1593, 
+                    lng: -113.3751, 
+                    title: "Gateway Resort", 
+                    info: "<p>Designed for those seeking a refined yet immersive retreat, Gateway Resort is a premier luxury hotel that seamlessly blends upscale comfort with the dramatic beauty of its surroundings. With 139 elegantly appointed hotel rooms, Gateway offers a sophisticated stay where modern indulgence meets the raw, breathtaking landscape of black lava rock cliffs.</p> <p>At the heart of the resort is a 27,000 sq. ft. state-of-the-art day spa, where private pools and hot tubs are thoughtfully built into the natural lava rock formations, creating a serene and secluded wellness experience. For events both grand and intimate, the 14,000 sq. ft. two-story ballroom features flexible partitioning, allowing for a range of gatherings, from large celebrations to intimate conferences.</p> <p>The resort’s stunningly landscaped pools, lazy rivers, and hot tubs weave through the natural terrain, incorporating the striking black lava rock to create a setting that is both exotic and tranquil.</p> <p>Dining at Gateway Resort is an experience in itself. The three-story signature restaurant caters to both families and adults, offering a dynamic atmosphere that shifts with each level. The upper floors feature a bar and live entertainment stage, leading seamlessly into an exclusive, adults-only pool area, nestled in a private cove of black lava rock—offering a refined escape separate from the vibrant family-friendly pool areas.</p> <p>Whether you seek relaxation, adventure, or an elegant social retreat, Gateway Resort is the perfect balance of luxury and nature—an unforgettable escape where every detail is designed to inspire and rejuvenate.</p>", 
+                    img: "",
+                    link: "" 
+                },
+                { 
+                    lat: 37.1596, 
+                    lng: -113.3769, 
+                    title: "Gateway Clubhouse", 
+                    info: "<p>The Gateway Clubhouse serves as both a temporary home for resort amenities during the construction of Gateway Resort and a long-term retreat center built to foster connection, relaxation, and community. Nestled within the black lava rock cliffs, the clubhouse features a small convention area, a pool area integrated into the natural landscape, and game spaces that offer fun and entertainment for all guests.</p> <p>With 23 rooms, including 5 bunkrooms, the clubhouse is designed to accommodate groups and gatherings of all kinds. The rooms are grouped into 6 sections, providing the perfect layout for families, reunions, or sports teams looking to travel together and have their own dedicated space. Specially designed chaperone/parent rooms are conveniently located near the bunkrooms, ensuring that larger groups can stay close-knit while maintaining privacy and comfort.</p> <p>While it serves as a temporary space during resort development, the Gateway Clubhouse is built with a long-term purpose in mind—creating a comfortable, functional retreat for family reunions, sports teams, and group travelers who seek a place where they can reconnect, recharge, and enjoy their time together in a stunning, naturally immersive setting.</p>", 
+                    img: "",
+                    link: "" 
+                },
+                { 
+                    lat: 37.1613, 
+                    lng: -113.3751, 
+                    title: "Gateway Condos", 
+                    info: "<p>Gateway Condos presents a unique opportunity to own a share of luxury with fractional ownership in 13ths, allowing you to enjoy the benefits of a vacation home at a fraction of the cost. This exceptional collection features over 1,000 spacious condos, offering a variety of 5 distinct layouts ranging from 3 to 4-bedroom options designed to provide comfort, space, and flexibility for your ideal getaway.</p> <p>Throughout the community, you'll find multiple private pools nestled within the buildings, while the main draw is the exclusive access to the incredible amenities at Gateway Resort. Owners and guests can enjoy the resort’s beautifully landscaped pools, lazy rivers, hot tubs, and the world-class 27,000 sq. ft. day spa, all set amidst the dramatic beauty of black lava rock cliffs.</p> <p>With a combination of private living, luxury amenities, and fractional ownership, Gateway Condos offers the perfect blend of convenience and upscale resort living. Whether you're seeking a personal retreat or a shared investment in a prime vacation destination, Gateway Condos delivers unparalleled access to a luxurious lifestyle in one of the most stunning environments available.</p>", 
+                    img: "https://i.imgur.com/CVrmLal.jpg",
+                    link: "" 
+                },
+                {
+                    lat: 37.1503, 
+                    lng: -113.3893, 
+                    title: "BASH Mancaves", 
+                    info: "This is Project 5 details.", 
+                    img: "https://i.imgur.com/zAEnsGh.jpg",
+                    link: "" 
+                },
+                {
+                    lat: 37.1556, 
+                    lng: -113.3882, 
+                    title: "BASH Facility", 
+                    info: "<p>The BASH Facility is the central home for BASH power sports, dedicated to maintaining, repairing, and servicing our fleet of boats, ATVs, and jet skis. This facility is equipped with everything needed to ensure our vehicles remain in top condition, offering reliable upkeep and fast turnaround for all power sports needs.</p> <p>In addition to the maintenance areas, the second floor of the BASH Facility houses a selection of office spaces, providing a functional environment for administrative tasks and operations. This space also serves as an ideal venue for investor events and gatherings, making it a versatile location for both business and recreational activities.</p> <p>The BASH Facility is a key part of our operations, ensuring the smooth running of our power sports fleet while offering professional spaces for business needs and community engagement.</p>", 
+                    img: "https://i.imgur.com/xmBCqTz.jpg",
+                    link: "" 
+                },
+                {
+                    lat: 37.1545, 
+                    lng: -113.3880, 
+                    title: "BASH Wash", 
+                    info: "<p>BASH Wash is a full-service car wash and detailing facility designed for convenience and quality care. Featuring a high-efficiency car wash tunnel, BASH Wash provides a fast, thorough clean for vehicles of all sizes.</p> <p>For those looking for a more detailed touch, our detail center includes three dedicated bays, offering professional interior and exterior detailing services. Additionally, for those who prefer a hands-on approach, we provide self-service wash bays, allowing customers to clean their vehicles at their own pace.</p> <p>Whether you need a quick wash, a deep clean, or full detailing, BASH Wash delivers top-tier service, keeping vehicles looking their best with ease and efficiency.</p>",
+                    img: "",
+                    link: "" 
+                },
+                {
+                    lat: 37.1545, 
+                    lng: -113.3854, 
+                    title: "Yogi Bear's Marketplace", 
+                    info: "<p>Yogi Bear’s Marketplace is a dynamic commercial hub designed to bring shopping, dining, and entertainment together in an immersive, themed environment. Inspired by the energy of Downtown Disney but with its own unique twist, this vibrant district offers a mix of retail shops, diverse dining options, and lively entertainment venues, creating a destination for visitors of all ages.</p> <p>At the heart of the marketplace is a cabaret theater, providing an exciting venue for live performances and special events. The space is also designed to host a variety of gatherings, private functions, and community events, making it a versatile centerpiece for entertainment and engagement.</p> <p>For those looking to enjoy the nightlife, the marketplace will feature a bar and other entertainment options, offering a perfect place to unwind after a day of exploring. Whether you're shopping, dining, catching a show, or experiencing the nightlife, Yogi Bear’s Marketplace is the ultimate gathering place for fun, excitement, and unforgettable experiences.</p>", 
+                    img: "",
+                    link: "" 
+                },
+                {
+                    lat: 37.1512, 
+                    lng: -113.3747, 
+                    title: "Serenity Park", 
+                    info: "<p>Serenity Park is a thoughtfully designed assisted living facility, offering a comfortable, supportive environment for residents to thrive. With 137 rooms, including studio, one-bedroom, and two-bedroom units, as well as a 20-bed memory care unit, Serenity Park provides personalized care to meet the needs of its residents.</p> <p>The memory care unit is designed with the well-being of its residents in mind, featuring a secure, enclosed courtyard for outdoor enjoyment, as well as a dedicated recreation/activity area for therapeutic engagement.</p> <p>Beyond the memory care unit, the main facility offers a wide array of amenities to enrich the lives of all residents. Serenity Park features a rooftop garden where residents can enjoy peaceful outdoor time, a beautifully landscaped outdoor courtyard, and spaces for relaxation, such as a library and theater. Additionally, there are practical spaces like a computer lab, art studio, and gym to support both mental and physical wellness.</p> <p>The facility also includes recreation rooms and conversation areas throughout, encouraging socialization and fostering a sense of community. Serenity Park is designed to offer a vibrant, engaging environment where residents can enjoy their independence while having access to the care and support they need.</p>", 
+                    img: "",
+                    link: "" 
+                },
+                {
+                    lat: 37.1511, 
+                    lng: -113.3695, 
+                    title: "Peach Pit Development", 
+                    info: "This is Project 10 details.", 
+                    img: "",
+                    link: "" 
+                },
+                {
+                    lat: 37.1540, 
+                    lng: -113.3746, 
+                    title: "Pickle Ball Park", 
+                    info: "<p>The Pickleball Park is a premier recreational destination within the development, offering something for everyone to enjoy. Featuring 18 pickleball courts, it’s the perfect place for enthusiasts of all skill levels to play, compete, or practice. Alongside the courts, there are 2 soccer fields for teams and players to engage in friendly matches, along with plenty of green space for relaxation, picnics, or casual outdoor activities.</p> <p>For families, there’s a playground that provides a safe and fun environment for children to explore and enjoy. The concessions area offers a variety of snacks and refreshments, ensuring you can stay fueled and hydrated throughout your visit.</p> <p>This Pickleball Park is just one of the many recreational spaces being added to the development, designed to create an active, vibrant community where individuals and families can stay engaged, active, and entertained. Whether you’re here for a game of pickleball, soccer, or simply to enjoy the outdoors, this park is a cornerstone of the overall development’s focus on recreation and well-being.</p>", 
+                    img: "",
+                    link: "" 
+                },
+                {
+                    lat: 37.1512, 
+                    lng: -113.3842, 
+                    title: "Obsidian Resort", 
+                    info: "This is Project 12 details.", 
+                    img: "",
+                    link: "" 
+                },
+            ];
+
+            locations.forEach(function(location) {
+                var marker = new google.maps.Marker({
+                    position: { lat: location.lat, lng: location.lng },
+                    map: map,
+                    title: location.title
+                });
+                
+                var infoWindow = new google.maps.InfoWindow({
+                    content: `
+                        <div style="max-width: 500px; text-align: center;">
+                            <h3>${location.title}</h3>
+                            <a href="${location.link}" target="_blank">
+                                <img src="${location.img}" alt="${location.title}" style="width:100%; border-radius: 8px; cursor: pointer;">
+                            </a>
+                            <p>${location.info}</p>
+                        </div>
+                    `
+                });
+
+                marker.addListener("click", function() {
+                    infoWindow.open(map, marker);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
