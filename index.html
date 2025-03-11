@@ -48,12 +48,11 @@
                 
                         var infoWindow = new google.maps.InfoWindow({
                             content: `
-                                <div style="max-width: 500px; text-align: center; position: relative;">
-                                    <div style="display: flex; justify-content: center; align-items: center; position: relative;">
-                                        <h3 style="margin: 0; text-align: center; flex-grow: 1;">${location.title}</h3>
+                                <div style="max-width: 500px; text-align: center;">
+                                    <h3>${location.title}</h3>
                                     <p>${location.info}</p>
                                     <a href="${location.link}" target="_blank">
-                                        <img src="${location.img}" alt="${location.title}" style="width:50%; border-radius: 8px; cursor: pointer;">
+                                        <img src="${location.img}" alt="${location.title}" style="width:75%; border-radius: 8px; cursor: pointer;">
                                     </a>
                                 </div>
                             `
