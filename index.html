@@ -172,6 +172,7 @@
                 });
 
                 marker.addListener("click", function() {
+                    infoWindow.close();
                     infoWindow.open(map, marker);
                 });
             });
