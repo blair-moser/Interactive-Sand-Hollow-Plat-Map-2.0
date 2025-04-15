@@ -7,14 +7,6 @@
         "img": "Images/Aerie Resort.jpg",
         "link": "https://book.sandhollow.rentals/" 
     },
-    {
-        "top": "67%", 
-        "left": "51%", 
-        "title": "Dixie Heights Development", 
-        "info": "This is Project 1 details.", 
-        "img": "",
-        "link": "" 
-    },
     { 
         "top": "39%", 
         "left": "27%", 
@@ -28,7 +20,7 @@
         "left": "49%", 
         "title": "Gateway Resort", 
         "info": "<p>Designed for those seeking a refined yet immersive retreat, Gateway Resort is a premier luxury hotel that seamlessly blends upscale comfort with the dramatic beauty of its surroundings. With 139 elegantly appointed hotel rooms, Gateway offers a sophisticated stay where modern indulgence meets the raw, breathtaking landscape of black lava rock cliffs.</p> <p>At the heart of the resort is a 27,000 sq. ft. state-of-the-art day spa, where private pools and hot tubs are thoughtfully built into the natural lava rock formations, creating a serene and secluded wellness experience. For events both grand and intimate, the 14,000 sq. ft. two-story ballroom features flexible partitioning, allowing for a range of gatherings, from large celebrations to intimate conferences.</p> <p>The resort’s stunningly landscaped pools, lazy rivers, and hot tubs weave through the natural terrain, incorporating the striking black lava rock to create a setting that is both exotic and tranquil.</p> <p>Dining at Gateway Resort is an experience in itself. The three-story signature restaurant caters to both families and adults, offering a dynamic atmosphere that shifts with each level. The upper floors feature a bar and live entertainment stage, leading seamlessly into an exclusive, adults-only pool area, nestled in a private cove of black lava rock—offering a refined escape separate from the vibrant family-friendly pool areas.</p> <p>Whether you seek relaxation, adventure, or an elegant social retreat, Gateway Resort is the perfect balance of luxury and nature—an unforgettable escape where every detail is designed to inspire and rejuvenate.</p>", 
-        "img": "",
+        "img": "Images/Gateway Resort.jpg",
         "link": "" 
     },
     { 
@@ -36,7 +28,7 @@
         "left": "46%", 
         "title": "Gateway Clubhouse", 
         "info": "<p>The Gateway Clubhouse serves as both a temporary home for resort amenities during the construction of Gateway Resort and a long-term retreat center built to foster connection, relaxation, and community. Nestled within the black lava rock cliffs, the clubhouse features a small convention area, a pool area integrated into the natural landscape, and game spaces that offer fun and entertainment for all guests.</p> <p>With 23 rooms, including 5 bunkrooms, the clubhouse is designed to accommodate groups and gatherings of all kinds. The rooms are grouped into 6 sections, providing the perfect layout for families, reunions, or sports teams looking to travel together and have their own dedicated space. Specially designed chaperone/parent rooms are conveniently located near the bunkrooms, ensuring that larger groups can stay close-knit while maintaining privacy and comfort.</p> <p>While it serves as a temporary space during resort development, the Gateway Clubhouse is built with a long-term purpose in mind—creating a comfortable, functional retreat for family reunions, sports teams, and group travelers who seek a place where they can reconnect, recharge, and enjoy their time together in a stunning, naturally immersive setting.</p>", 
-        "img": "",
+        "img": "Images/Gateway Clubhouse.jpg",
         "link": "" 
     },
     { 
@@ -64,11 +56,11 @@
         "link": "" 
     },
     {
-        "top": "37.5%", 
-        "left": "24%", 
+        "top": "37%", 
+        "left": "24.5%", 
         "title": "BASH Wash", 
         "info": "<p>BASH Wash is a full-service car wash and detailing facility designed for convenience and quality care. Featuring a high-efficiency car wash tunnel, BASH Wash provides a fast, thorough clean for vehicles of all sizes.</p> <p>For those looking for a more detailed touch, our detail center includes three dedicated bays, offering professional interior and exterior detailing services. Additionally, for those who prefer a hands-on approach, we provide self-service wash bays, allowing customers to clean their vehicles at their own pace.</p> <p>Whether you need a quick wash, a deep clean, or full detailing, BASH Wash delivers top-tier service, keeping vehicles looking their best with ease and efficiency.</p>",
-        "img": "",
+        "img": "Images/BASH Wash.jpg",
         "link": "" 
     },
     {
@@ -76,7 +68,7 @@
         "left": "29%", 
         "title": "Yogi Bear's Marketplace", 
         "info": "<p>Yogi Bear’s Marketplace is a dynamic commercial hub designed to bring shopping, dining, and entertainment together in an immersive, themed environment. Inspired by the energy of Downtown Disney but with its own unique twist, this vibrant district offers a mix of retail shops, diverse dining options, and lively entertainment venues, creating a destination for visitors of all ages.</p> <p>At the heart of the marketplace is a cabaret theater, providing an exciting venue for live performances and special events. The space is also designed to host a variety of gatherings, private functions, and community events, making it a versatile centerpiece for entertainment and engagement.</p> <p>For those looking to enjoy the nightlife, the marketplace will feature a bar and other entertainment options, offering a perfect place to unwind after a day of exploring. Whether you're shopping, dining, catching a show, or experiencing the nightlife, Yogi Bear’s Marketplace is the ultimate gathering place for fun, excitement, and unforgettable experiences.</p>", 
-        "img": "",
+        "img": "Images/Yogi Bear's Marketplace.jpg",
         "link": "" 
     },
     {
@@ -84,15 +76,23 @@
         "left": "51%", 
         "title": "Serenity Park", 
         "info": "<p>Serenity Park is a thoughtfully designed assisted living facility, offering a comfortable, supportive environment for residents to thrive. With 137 rooms, including studio, one-bedroom, and two-bedroom units, as well as a 20-bed memory care unit, Serenity Park provides personalized care to meet the needs of its residents.</p> <p>The memory care unit is designed with the well-being of its residents in mind, featuring a secure, enclosed courtyard for outdoor enjoyment, as well as a dedicated recreation/activity area for therapeutic engagement.</p> <p>Beyond the memory care unit, the main facility offers a wide array of amenities to enrich the lives of all residents. Serenity Park features a rooftop garden where residents can enjoy peaceful outdoor time, a beautifully landscaped outdoor courtyard, and spaces for relaxation, such as a library and theater. Additionally, there are practical spaces like a computer lab, art studio, and gym to support both mental and physical wellness.</p> <p>The facility also includes recreation rooms and conversation areas throughout, encouraging socialization and fostering a sense of community. Serenity Park is designed to offer a vibrant, engaging environment where residents can enjoy their independence while having access to the care and support they need.</p>", 
-        "img": "",
+        "img": "Images/Serenity Park.jpg",
         "link": "" 
     },
     {
         "top": "42%", 
         "left": "65%", 
         "title": "Peach Pit Development", 
-        "info": "This is Project 2 details.", 
-        "img": "",
+        "info": "<p>The Peach Pit is a vibrant mixed-use development designed to bring people together through bold design, thoughtful amenities, and a strong sense of place. Anchored by 25 high-end mancaves, this community combines the best of luxury storage and living with flexible, adventure-ready spaces that can be fully customized with toys, entertainment features, and even staffed experiences.</p><p>Surrounding the mancaves are 88 modern townhomes, perfect for full-time residents or vacation home seekers looking for a low-maintenance lifestyle near the heart of the action. At the center of the development is a dedicated 9,000 sq ft event center, ideal for hosting weddings, conventions, farmers markets, and community events.</p><p>Complementing the event space are beautifully maintained gardens, a working pecan orchard, and an on-site restaurant and store, creating a welcoming, walkable environment where community and comfort meet. Whether you're looking to entertain, retreat, or plant roots, The Peach Pit offers a fresh, well-rounded lifestyle with something for everyone.</p>", 
+        "img": "Images/Peach Pit Development.jpg",
+        "link": "" 
+    },
+    {
+        "top": "67%", 
+        "left": "51%", 
+        "title": "Dixie Heights Development", 
+        "info": "<p>Dixie Heights is a thoughtfully developed residential community that blends scenic desert landscapes with comfortable, livable design. Perched in a beautiful area of Southern Utah, this neighborhood features around 100 homes built by a variety of quality builders, offering a range of styles and layouts to suit modern family life.</p><p>While we’ve only got a few exclusive homes remaining under construction, our early involvement in developing the land has helped shape Dixie Heights into the desirable community it is today. With convenient access to surrounding recreation and amenities, Dixie Heights delivers the best of both natural beauty and neighborhood living.</P>", 
+        "img": "Images/Dixie Heights.jpg",
         "link": "" 
     },
     {
@@ -100,8 +100,32 @@
         "left": "51%", 
         "title": "Pickle Ball Park", 
         "info": "<p>The Pickleball Park is a premier recreational destination within the development, offering something for everyone to enjoy. Featuring 18 pickleball courts, it’s the perfect place for enthusiasts of all skill levels to play, compete, or practice. Alongside the courts, there are 2 soccer fields for teams and players to engage in friendly matches, along with plenty of green space for relaxation, picnics, or casual outdoor activities.</p> <p>For families, there’s a playground that provides a safe and fun environment for children to explore and enjoy. The concessions area offers a variety of snacks and refreshments, ensuring you can stay fueled and hydrated throughout your visit.</p> <p>This Pickleball Park is just one of the many recreational spaces being added to the development, designed to create an active, vibrant community where individuals and families can stay engaged, active, and entertained. Whether you’re here for a game of pickleball, soccer, or simply to enjoy the outdoors, this park is a cornerstone of the overall development’s focus on recreation and well-being.</p>", 
-        "img": "",
+        "img": "Images/Pickleball Park.jpg",
         "link": "" 
+    },
+    {
+        "top": "34%", 
+        "left": "34%", 
+        "title": "Zion Utah Jellystone Park™", 
+        "info": "<p>Welcome to Zion Utah Jellystone Park™, the newest RV park in Southern Utah. Located near Zion National Park and St. George, our park offers a unique blend of exciting outdoor activities, water attractions, and relaxing accommodations like RV sites and cabin rentals. Whether you’re looking to explore Zion’s beauty or enjoy family-friendly fun at our campground, we have everything you need for an unforgettable stay.</p><p>Access to our Water Zone and Floating Obstacle Course are included with every reservation.</p>", 
+        "img": "Images/Zion Utah Jellystone Park.jpg",
+        "link": "https://zionutahjellystonepark.com/" 
+    },
+    {
+        "top": "33%", 
+        "left": "36%", 
+        "title": "The Ropes of Southern Utah", 
+        "info": "<p>The Ropes of Southern Utah is a premier aerial adventure destination designed to challenge, entertain, and inspire. The centerpiece is a professionally engineered multi-level ropes course, currently featuring 40+ obstacles with plans to expand to 60 elements by the end of 2025. The course offers five difficulty levels, including an all-abilities tier, ensuring a thrilling experience for both first-timers and seasoned climbers.</p><p>Beyond the ropes course, the complex boasts a variety of attractions, including bungee trampolines, HD golf simulators, and the Valo Arena, an immersive virtual gaming experience. On-site dining options like The Doughnuttery provide sweet treats to refuel after a day of adventure.</p><p>Whether you're seeking a family outing, a group event, or a personal challenge, The Ropes of Southern Utah offers an unforgettable blend of excitement and natural beauty. With its commitment to safety, inclusivity, and fun, it's the ultimate destination for adventurers of all ages.</p>", 
+        "img": "Images/The Ropes of Southern Utah.jpg",
+        "link": "https://theropesofsouthernutah.com/" 
+    },
+    {
+        "top": "31%", 
+        "left": "32%", 
+        "title": "Utah Prep Academy", 
+        "info": "<p>Discover the unparalleled experience at Utah Prep Academy, an international preparatory boarding school that seamlessly integrates top-tier academics, elite nationally ranked athletics, and an awe-inspiring campus. Situated on a stunning 55-acre property at the gateway to Zion National Park in Southern Utah, just 95 minutes from Las Vegas! Utah Prep Academy is where potential is unlocked and excellence thrives.</p><p>At Utah Prep, we are committed to academic distinction. We are in our third year with our Academic Partner Mount Vernon Academy who is celebrating their 50th year of academic excellence. Our curriculum is designed to challenge and inspire, fostering a love for learning and critical thinking. We believe in nurturing the whole student, ensuring they are prepared for success in higher education and beyond.</p><p>Utah Prep is home to our nationally ranked basketball team that has gained national recognition. Entering its fifth thrilling season, our basketball program has its roots in the high school development program of Major League Soccer’s Real Salt Lake. Athletes receive top-notch training while embodying the values of teamwork, discipline, and perseverance. Our program is tailored to develop not only outstanding athletes but also well-rounded individuals.</p><p>Experience the unique blend of world-class academics, elite athletics, and breathtaking natural beauty at Utah Prep Academy. Here, students are empowered to excel in every aspect of their lives, preparing them for a future filled with limitless possibilities.Discover the difference at Utah Prep Academy, where excellence meets opportunity. Join us and become a part of a tradition of Growth, Success and Achievement.</p>", 
+        "img": "Images/Utah Prep Academy.jpg",
+        "link": "https://utahprep.com/" 
     },
     {
         "top": "41%", 
@@ -110,5 +134,53 @@
         "info": "<p>Powered by premier hospitality, the residential experience at Obsidian Resort & Residences encompasses seven courtyard garden buildings with expansive, design-centric homes with outdoor spaces—set against the cinematic backdrop of a pristine landscape. The residences offer a thoughtful counterpoint to a traditional hotel stay, anchored by all the conveniences, amenities, and hospitality services of a quintessential destination resort. The unique ownership structure offers buyers the opportunity to take advantage of the effortless in-house rental program to support their investment.</p>", 
         "img": "Images/Obsidian Resort.jpg",
         "link": "https://www.obsidianresortandresidences.com/obsidian-residences" 
+    },
+    {
+        "top": "27.5%", 
+        "left": "50%", 
+        "title": "Gas Satation", 
+        "info": "<p></p>", 
+        "img": "",
+        "link": "" 
+    },
+    {
+        "top": "26.75%", 
+        "left": "53.5%", 
+        "title": "Food", 
+        "info": "<p></p>", 
+        "img": "",
+        "link": "" 
+    },
+    {
+        "top": "26%", 
+        "left": "58%", 
+        "title": "Grocery Store", 
+        "info": "<p></p>", 
+        "img": "",
+        "link": "" 
+    },
+    {
+        "top": "25.5%", 
+        "left": "64%", 
+        "title": "Home Improvement Store", 
+        "info": "<p></p>", 
+        "img": "",
+        "link": "" 
+    },
+    {
+        "top": "25%", 
+        "left": "68%", 
+        "title": "Activity Center", 
+        "info": "<p></p>", 
+        "img": "",
+        "link": "" 
+    },
+    {
+        "top": "24.5%", 
+        "left": "72%", 
+        "title": "Hospital", 
+        "info": "<p></p>", 
+        "img": "",
+        "link": "" 
     }
 ]
