@@ -13,16 +13,20 @@
     }
     .map-container {
       position: relative;
-      width: 100%;
-      max-width: 1125px;
-      margin: 0 auto;
-      height: auto;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .map-image {
-      width: 100%;
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
       height: auto;
-      display: block;
       object-fit: contain;
+      display: block;
     }
     .marker {
       position: absolute;
