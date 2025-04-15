@@ -1,116 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interactive Plat Map</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-    }
-    .map-container {
-      position: relative;
-      width: 100%;
-      max-width: 1125px; /* Half of 2250 for 50% scale */
-      margin: 0 auto;
-    }
-    .map-image {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-    .marker {
-      position: absolute;
-      width: 10px;
-      height: 10px;
-      background-color: red;
-      border-radius: 50%;
-      cursor: pointer;
-      transform: translate(-50%, -50%);
-    }
-    .popup {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background: white;
-      padding: 10px;
-      border: 1px solid #ccc;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-      display: none;
-      z-index: 10;
-      text-align: center;
-    }
-    .popup img {
-      width: 600px;
-      max-width: 100%;
-      display: block;
-      margin: 0 auto 10px auto;
-    }
-    .popup h3 {
-      margin: 10px 0 5px 0;
-      font-size: 24px;
-    }
-    .popup p {
-      font-size: 12px;
-      margin: 5px 0;
-    }
-    .popup a {
-      display: inline-block; 
-    }
-  </style>
-</head>
-<body>
-  <div class="map-container" id="mapContainer">
-    <img
-      src="The Map.jpg"
-      alt="Plat Map"
-      class="map-image"
-      id="platMap"
-    />
-    <div class="popup" id="popup"></div>
-  </div>
-
-  <script>
-    const popup = document.getElementById("popup");
-    const mapContainer = document.getElementById("mapContainer");
-
-    fetch('locations.json')
-      .then(response => response.json())
-      .then(data => {
-        data.forEach(markerData => {
-          const marker = document.createElement("div");
-          marker.classList.add("marker");
-          marker.style.top = markerData.top;
-          marker.style.left = markerData.left;
-
-          marker.addEventListener("click", (e) => {
-            const { title, info, img, link } = markerData;
-
-            popup.innerHTML = `
-              <h3>${title}</h3>
-              <a href="${link}" target="_blank">
-                <img src="${img}" alt="${title}" />
-              </a>
-              <p>${info}</p>
-            `;
-
-            popup.style.display = "block";
-            e.stopPropagation();
-          });
-
-          mapContainer.appendChild(marker);
-        });
-      })
-      .catch(err => console.error("Failed to load markers:", err));
-
-    mapContainer.addEventListener("click", (e) => {
-      if (!e.target.classList.contains('marker')) {
-        popup.style.display = "none";
-      }
-    });
-  </script>
-</body>
-</html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Interactive Sand Hollow Plat Map</title>
+     <style>
+         #map { height: 700px; width: 100%; }
+     </style>
+ </head>
+ <body>
+     <h2>Interactive Sand Hollow Plat Map</h2>
+     <div id="map"></div>
+ 
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDexHeps8WESUMRN7wfvP_bHgwJ8rpLor4&callback=initMap" async defer></script>
+     <script>
+         function initMap() {
+             var map = new google.maps.Map(document.getElementById('map'), {
+                 zoom: 14,
+                 center: { lat: 37.15, lng: -113.38 },
+                 mapTypeId: 'satellite'
+             });
+ 
+             var imageBounds = {
+                 north: 37.17355,
+                 south: 37.12625,
+                 east: -113.35435,
+                 west: -113.39315
+             };
+ 
+             var platMapOverlay = new google.maps.GroundOverlay(
+                 'https://i.imgur.com/5DOqMNg.png',
+                 imageBounds
+             );
+             platMapOverlay.setMap(map);
+ 
+             var currentInfoWindow = null;
+ 
+             fetch("locations.json")
+                 .then(response => response.json())
+                 .then(locations => {
+                     locations.forEach(function(location) {
+                         var marker = new google.maps.Marker({
+                             position: { lat: location.lat, lng: location.lng },
+                             map: map,
+                             title: location.title
+                         });
+ 
+                         var infoWindow = new google.maps.InfoWindow({
+                             content: `
+                                 <div style="max-width: 500px; text-align: center;">
+                                     <h3>${location.title}</h3>
+                                     <p>${location.info}</p>
+                                     <h3>${location.title}</h3>                                    
+                                     <a href="${location.link}" target="_blank">
+                                         <img src="${location.img}" alt="${location.title}" style="width:75%; border-radius: 8px; cursor: pointer;">
+                                     </a>
+                                     <p>${location.info}</p>
+                                 </div>
+                             `
+                         });
+ 
+                         marker.addListener("click", function() {
+                             if (currentInfoWindow) {
+                                 currentInfoWindow.close();
+                             }
+                             infoWindow.open(map, marker);
+                             currentInfoWindow = infoWindow;
+ 
+                             setTimeout(function() {
+                                 var closeButton = document.querySelector('.gm-style-iw button');
+                                 if (closeButton) {
+                                     closeButton.style.display = 'none'; 
+                                 }
+                             }, 1);
+                         });
+ 
+                         map.addListener("click", function(event) {
+                             if (currentInfoWindow) {
+                                 currentInfoWindow.close();
+                             }                    
+                         });
+ 
+                         platMapOverlay.addListener("click", function() {
+                             if (currentInfoWindow) {
+                                 currentInfoWindow.close();
+                             }
+                         });
+                     });
+                 })
+                 .catch(error => console.error("Error loading locations:", error));                
+         }
+     </script>
+ </body>
+ </html>
