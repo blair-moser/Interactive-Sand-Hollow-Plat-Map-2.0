@@ -4,7 +4,7 @@
         "left": "25%", 
         "title": "Aerie Resort", 
         "info": "<p>Nestled in a scenic setting, Aerie Resort offers a collection of comfortable and well-appointed vacation rentals, perfect for both small and large groups. Whether you're planning a family reunion, corporate retreat, or a getaway with friends, Aerie Resort provides spacious accommodations, with homes that can host up to 56 guests under one roof.</p> <p>Each home features inviting living spaces, well-equipped kitchens, and comfortable bedrooms, ensuring a relaxing and enjoyable stay. Guests have access to a community pool and large hot tub, ideal for unwinding after a day of adventure.</p> <p>With a focus on convenience and comfort, every home includes a variety of amenities to enhance your stay, from entertainment spaces to outdoor gathering areas. Aerie Resort is designed for connection and relaxation, offering a welcoming retreat for every occasion.</p>", 
-        "img": "https://i.imgur.com/lrpNuwh.jpg",
+        "img": "Images/Aerie Resort.jpg",
         "link": "https://book.sandhollow.rentals/" 
     },
     {
@@ -20,7 +20,7 @@
         "left": "27%", 
         "title": "Adventus", 
         "info": "<p>Adventus is more than just a hotel—it’s a destination designed for those who live boldly and seek the perfect balance of adventure and relaxation. Offering a mix of hotel rooms, condos, and exclusive luxury penthouse suites, Adventus provides flexible ownership opportunities, including fractional ownership in 13ths for those looking to invest in their ideal getaway.</p> <p>At the heart of Adventus is its 30,000 sq. ft., two-story destination gym, the premier attraction for fitness enthusiasts, influencers, and wellness-minded travelers. This state-of-the-art facility hosts high-energy classes, exclusive training events, and educational programs, all designed to inspire and elevate a healthy lifestyle. Tied to the gym is a chef’s kitchen, where guests can learn about nutrition, meal prep, and fueling their bodies for peak performance.</p> <p>Beyond fitness, Adventus delivers an all-encompassing experience. The first floor features 50,000 sq. ft. of retail space, with shops and services tailored to adventure seekers. Additionally, four restaurant pads provide diverse dining options, including a high-end rooftop bar and restaurant with breathtaking views—perfect for unwinding after a day of exploration.</p> <p>For those looking to relax, the third-story pool deck offers stunning vistas and a tranquil escape from the day’s adventures. Whether you’re here to push your limits, find balance, or simply enjoy a vibrant and energetic atmosphere, Adventus is where adventure meets lifestyle in a way that’s never been done before.</p>", 
-        "img": "https://i.imgur.com/RQUEEXu.jpg", 
+        "img": "Images/Adventus.jpg", 
         "link": ""
     },
     { 
@@ -44,7 +44,7 @@
         "left": "48%", 
         "title": "Gateway Condos", 
         "info": "<p>Gateway Condos presents a unique opportunity to own a share of luxury with fractional ownership in 13ths, allowing you to enjoy the benefits of a vacation home at a fraction of the cost. This exceptional collection features over 1,000 spacious condos, offering a variety of 5 distinct layouts ranging from 3 to 4-bedroom options designed to provide comfort, space, and flexibility for your ideal getaway.</p> <p>Throughout the community, you'll find multiple private pools nestled within the buildings, while the main draw is the exclusive access to the incredible amenities at Gateway Resort. Owners and guests can enjoy the resort’s beautifully landscaped pools, lazy rivers, hot tubs, and the world-class 27,000 sq. ft. day spa, all set amidst the dramatic beauty of black lava rock cliffs.</p> <p>With a combination of private living, luxury amenities, and fractional ownership, Gateway Condos offers the perfect blend of convenience and upscale resort living. Whether you're seeking a personal retreat or a shared investment in a prime vacation destination, Gateway Condos delivers unparalleled access to a luxurious lifestyle in one of the most stunning environments available.</p>", 
-        "img": "https://i.imgur.com/CVrmLal.jpg",
+        "img": "Images/Gateway Condos.jpg",
         "link": "" 
     },
     {
@@ -52,7 +52,7 @@
         "left": "20%", 
         "title": "BASH Mancaves", 
         "info": "<p>The BASH Mancaves take the traditional concept of a mancave to a whole new level, combining expansive living spaces with top-tier entertainment and luxury amenities. While each unit features the classic two-story garage with a mezzanine overlooking the garage—ideal for showcasing vehicles and toys—these mancaves offer far more than just storage. Each unit can be fully stocked with any combination of power toys imaginable, from ATVs and jet skis to high-end performance vehicles, ensuring adventure is always within reach.</p> <p>Rising three stories above the garage, the living spaces are designed for both relaxation and entertainment. Each spacious bedroom includes an ensuite bathroom and private balcony, even the dedicated bunkroom, ensuring privacy and comfort for every guest. Expansive windows throughout flood the space with natural light and highlight the breathtaking views.</p> <p>For the ultimate in-home experience, some units include an additional two-story basement, featuring incredible amenities such as a half-court basketball court, pickleball court, private in-home theater with stadium seating, golf simulator, or bowling alley with some offering varying combinations of these features.</p> <p>At the heart of each mancave’s design is the third-floor deck, which features a stunning infinity-edge pool, seamlessly blending indoor and outdoor living. To take the luxury experience even further, private service staff can be arranged, including personal chefs, DJs, or even live pianists, creating an atmosphere tailored to any occasion.</p> <p>With high-end finishes, thoughtfully designed spaces, and entertainment at every turn, the BASH Mancaves set a new standard for luxury, creating the ultimate retreat for those who demand more than just a garage.</p>", 
-        "img": "https://i.imgur.com/zAEnsGh.jpg",
+        "img": "Images/BASH Mancaves.jpg",
         "link": "" 
     },
     {
@@ -60,7 +60,7 @@
         "left": "24.5%", 
         "title": "BASH Facility", 
         "info": "<p>The BASH Facility is the central home for BASH power sports, dedicated to maintaining, repairing, and servicing our fleet of boats, ATVs, and jet skis. This facility is equipped with everything needed to ensure our vehicles remain in top condition, offering reliable upkeep and fast turnaround for all power sports needs.</p> <p>In addition to the maintenance areas, the second floor of the BASH Facility houses a selection of office spaces, providing a functional environment for administrative tasks and operations. This space also serves as an ideal venue for investor events and gatherings, making it a versatile location for both business and recreational activities.</p> <p>The BASH Facility is a key part of our operations, ensuring the smooth running of our power sports fleet while offering professional spaces for business needs and community engagement.</p>", 
-        "img": "https://i.imgur.com/xmBCqTz.jpg",
+        "img": "Images/BASH Facility.jpg",
         "link": "" 
     },
     {
@@ -108,7 +108,7 @@
         "left": "31%", 
         "title": "Obsidian Resort", 
         "info": "<p>Powered by premier hospitality, the residential experience at Obsidian Resort & Residences encompasses seven courtyard garden buildings with expansive, design-centric homes with outdoor spaces—set against the cinematic backdrop of a pristine landscape. The residences offer a thoughtful counterpoint to a traditional hotel stay, anchored by all the conveniences, amenities, and hospitality services of a quintessential destination resort. The unique ownership structure offers buyers the opportunity to take advantage of the effortless in-house rental program to support their investment.</p>", 
-        "img": "https://i.imgur.com/xu63NLX.jpg",
+        "img": "Images/Obsidian Resort.jpg",
         "link": "https://www.obsidianresortandresidences.com/obsidian-residences" 
     }
 ]
