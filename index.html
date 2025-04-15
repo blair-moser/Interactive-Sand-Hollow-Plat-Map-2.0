@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interactive Sand Hollow Plat Map</title>
+  <title>Interactive Plat Map</title>
   <style>
     body {
       margin: 0;
@@ -36,29 +36,32 @@
       left: 50%;
       transform: translate(-50%, -50%);
       background: white;
-      padding: 10px;
+      padding: 12px;
       border: 1px solid #ccc;
       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
       display: none;
       z-index: 10;
       text-align: center;
+      max-width: 90vw;
+      box-sizing: border-box;
+      max-height: 80vh;
+      overflow-y: auto;
     }
     .popup img {
-      width: 600px;
-      max-width: 100%;
+      width: 80vw;
+      max-width: 300px;
       display: block;
-      margin: 0 auto 10px auto;
+      margin: 0 auto 5px auto;
     }
     .popup h3 {
-      margin: 10px 0 5px 0;
-      font-size: 24px;
+      margin: 8px 0;
+      font-size: 1.75rem; /* Increased heading size */
     }
     .popup p {
-      font-size: 12px;
-      margin: 5px 0;
+      font-size: 0.75rem; /* Reduced info text size */
     }
     .popup a {
-      display: inline-block; 
+      display: inline-block;
     }
   </style>
 </head>
