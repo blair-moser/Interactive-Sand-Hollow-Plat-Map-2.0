@@ -80,8 +80,8 @@
         "link": "" 
     },
     {
-        "top": "42%", 
-        "left": "65%", 
+        "top": "40%", 
+        "left": "64%", 
         "title": "Peach Pit Development", 
         "info": "<p>The Peach Pit is a vibrant mixed-use development designed to bring people together through bold design, thoughtful amenities, and a strong sense of place. Anchored by 25 high-end mancaves, this community combines the best of luxury storage and living with flexible, adventure-ready spaces that can be fully customized with toys, entertainment features, and even staffed experiences.</p><p>Surrounding the mancaves are 88 modern townhomes, perfect for full-time residents or vacation home seekers looking for a low-maintenance lifestyle near the heart of the action. At the center of the development is a dedicated 9,000 sq ft event center, ideal for hosting weddings, conventions, farmers markets, and community events.</p><p>Complementing the event space are beautifully maintained gardens, a working pecan orchard, and an on-site restaurant and store, creating a welcoming, walkable environment where community and comfort meet. Whether you're looking to entertain, retreat, or plant roots, The Peach Pit offers a fresh, well-rounded lifestyle with something for everyone.</p>", 
         "img": "Images/Peach Pit Development.jpg",
@@ -96,11 +96,91 @@
         "link": "" 
     },
     {
+        "top": "35%", 
+        "left": "67%", 
+        "title": "The Vineyard", 
+        "info": "<p>The Vineyard is an upscale residential community defined by elegance, space, and a touch of timeless charm. This beautifully maintained neighborhood features large, luxury homes designed with high-end finishes and thoughtful details throughout, offering a premium living experience for those who appreciate quality and sophistication.</p><p>What sets this community apart is its namesake vineyard, a lush and scenic centerpiece that not only enhances the beauty of the area but brings a sense of serenity and distinction to the neighborhood. Whether as a full-time residence or a refined retreat, The Vineyard is a place where luxury and lifestyle come together naturally.</P>", 
+        "img": "Images/Vineyard.jpg",
+        "link": "" 
+    },
+    {
+        "top": "29%", 
+        "left": "70%", 
+        "title": "", 
+        "info": "<p>Ence Homes</P>", 
+        "img": "Images/Ence Homes.jpg",
+        "link": "" 
+    },
+    {
+        "top": "32.5%", 
+        "left": "60%", 
+        "title": "", 
+        "info": "<p>Holmes Homes</P>", 
+        "img": "Images/Holmes Homes.jpg",
+        "link": "" 
+    },
+    {
+        "top": "33%", 
+        "left": "56%", 
+        "title": "", 
+        "info": "<p>Visionary Homes</P>", 
+        "img": "Images/Visionary Homes.jpg",
+        "link": "" 
+    },
+    {
+        "top": "38%", 
+        "left": "47%", 
+        "title": "", 
+        "info": "<p>Holmes Homes</P>", 
+        "img": "Images/Holmes Homes.jpg",
+        "link": "" 
+    },
+    {
+        "top": "38.5%", 
+        "left": "41%", 
+        "title": "", 
+        "info": "<p>Visionary Homes</P>", 
+        "img": "Images/Visionary Homes.jpg",
+        "link": "" 
+    },
+    {
+        "top": "42%", 
+        "left": "40%", 
+        "title": "Red Slate Estates", 
+        "info": "<p>Richmond American</P>", 
+        "img": "Images/Richmond American Homes.jpg",
+        "link": "" 
+    },
+    {
+        "top": "42%", 
+        "left": "55%", 
+        "title": "Peach Springs Subdivision", 
+        "info": "<p>Smooth Stone</P>", 
+        "img": "Images/Smooth Stone.jpg",
+        "link": "" 
+    },
+    {
+        "top": "32%", 
+        "left": "42%", 
+        "title": "Townhomes", 
+        "info": "<p>Simply Land LLC</P>", 
+        "img": "Images/Townhomes.jpg",
+        "link": "" 
+    },
+    {
         "top": "37%", 
         "left": "51%", 
-        "title": "Pickle Ball Park", 
-        "info": "<p>The Pickleball Park is a premier recreational destination within the development, offering something for everyone to enjoy. Featuring 18 pickleball courts, it’s the perfect place for enthusiasts of all skill levels to play, compete, or practice. Alongside the courts, there are 2 soccer fields for teams and players to engage in friendly matches, along with plenty of green space for relaxation, picnics, or casual outdoor activities.</p> <p>For families, there’s a playground that provides a safe and fun environment for children to explore and enjoy. The concessions area offers a variety of snacks and refreshments, ensuring you can stay fueled and hydrated throughout your visit.</p> <p>This Pickleball Park is just one of the many recreational spaces being added to the development, designed to create an active, vibrant community where individuals and families can stay engaged, active, and entertained. Whether you’re here for a game of pickleball, soccer, or simply to enjoy the outdoors, this park is a cornerstone of the overall development’s focus on recreation and well-being.</p>", 
-        "img": "Images/Pickleball Park.jpg",
+        "title": "Gateway Park", 
+        "info": "<p>Gateway Park is a premier recreational destination within the development, offering something for everyone to enjoy. Featuring 18 pickleball courts, it’s the perfect place for enthusiasts of all skill levels to play, compete, or practice. Alongside the courts, there are 2 soccer fields for teams and players to engage in friendly matches, along with plenty of green space for relaxation, picnics, or casual outdoor activities.</p> <p>For families, there’s a playground that provides a safe and fun environment for children to explore and enjoy. The concessions area offers a variety of snacks and refreshments, ensuring you can stay fueled and hydrated throughout your visit.</p> <p>Gateway Park is just one of the many recreational spaces being added to the development, designed to create an active, vibrant community where individuals and families can stay engaged, active, and entertained. Whether you’re here for a game of pickleball, soccer, or simply to enjoy the outdoors, this park is a cornerstone of the overall development’s focus on recreation and well-being.</p>", 
+        "img": "Images/Gateway Park.jpg",
+        "link": "" 
+    },
+    {
+        "top": "39%", 
+        "left": "34%", 
+        "title": "BASH Park", 
+        "info": "<p>BASH Park is a smaller, laid-back recreation area designed for casual play and open-air enjoyment. This park features 1 full-size soccer field and 2 beach volleyball pits, offering space for both organized sports and spontaneous games.</p><p>The open green space and minimalist setup make it a great spot for relaxed community gatherings, team practices, or just enjoying the outdoors. BASH Park adds another layer of variety to the area’s growing collection of recreational options.</p>", 
+        "img": "Images/BASH Park.jpg",
         "link": "" 
     },
     {
@@ -140,7 +220,7 @@
         "left": "50%", 
         "title": "Gas Satation", 
         "info": "<p></p>", 
-        "img": "",
+        "img": "Images/Gas Station.jpg",
         "link": "" 
     },
     {
@@ -148,15 +228,15 @@
         "left": "53.5%", 
         "title": "Food", 
         "info": "<p></p>", 
-        "img": "",
+        "img": "Images/Food Strip.jpg",
         "link": "" 
     },
     {
-        "top": "26%", 
+        "top": "26.25%", 
         "left": "58%", 
         "title": "Grocery Store", 
         "info": "<p></p>", 
-        "img": "",
+        "img": "Images/Grocery Store.jpg",
         "link": "" 
     },
     {
@@ -164,7 +244,7 @@
         "left": "64%", 
         "title": "Home Improvement Store", 
         "info": "<p></p>", 
-        "img": "",
+        "img": "Images/Home Improvement.jpg",
         "link": "" 
     },
     {
@@ -172,15 +252,16 @@
         "left": "68%", 
         "title": "Activity Center", 
         "info": "<p></p>", 
-        "img": "",
+        "img": "Images/Activity Center.jpg",
         "link": "" 
     },
     {
         "top": "24.5%", 
         "left": "72%", 
-        "title": "Hospital", 
+        "title": "Medical Center", 
         "info": "<p></p>", 
-        "img": "",
+        "img": "Images/Medical Center.jpg",
+        "img2": "Images/Medical Center Plat.jpg",
         "link": "" 
     }
 ]

@@ -28,8 +28,8 @@
       position: absolute;
       width: .75vw;
       height: .75vw;
-      min-width: 8px;
-      min-height: 8px;
+      min-width: 5px;
+      min-height: 5px;
       max-width: 25px;
       max-height: 25px;
       background-color: red;
@@ -97,13 +97,14 @@
           marker.style.left = markerData.left;
 
           marker.addEventListener("click", (e) => {
-            const { title, info, img, link } = markerData;
+            const { title, info, img, img2, link } = markerData;
 
             popup.innerHTML = `
               <h3>${title}</h3>
               <a href="${link}" target="_blank">
                 <img src="${img}" alt="${title}" />
               </a>
+              ${img2 ? `<img src="${img2}" alt="${title} - extra image" />` : ""}
               <p>${info}</p>
             `;
 
