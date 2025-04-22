@@ -188,9 +188,10 @@
     {
         "top": "43.5%", 
         "left": "60%", 
-        "title": "", 
-        "info": "<p>Dennis Miller Homes</P>", 
-        "img": "Images/Dennis Miller Homes.jpg",
+        "title": "The Orchards", 
+        "info": "<p>Dennis Miller Homes</P>",
+        "img":"Images/The Orchards.jpg", 
+        "img2": "Images/Dennis Miller Homes.jpg",
         "link": "https://dennismillerhomes.com/" 
     },
     {
