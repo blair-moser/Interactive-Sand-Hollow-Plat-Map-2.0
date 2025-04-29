@@ -32,10 +32,11 @@
       min-height: 5px;
       max-width: 25px;
       max-height: 25px;
-      background-color: red;
+      background-color: rgb(0, 0, 0); 
       border-radius: 50%;
       cursor: pointer;
       transform: translate(-50%, -50%);
+      border: 1px solid black;
     }
     .popup {
       position: fixed;
@@ -45,7 +46,7 @@
       background: white;
       padding: 12px;
       border: 1px solid #ccc;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
       display: none;
       z-index: 10;
       text-align: center;
@@ -70,6 +71,45 @@
     .popup a {
       display: inline-block;
     }
+    .map-key {
+      position: fixed;
+      top: 25px;
+      right: 25px;
+      background: rgba(255, 255, 255);
+      border: 2px solid black;
+      padding: 10px;
+      font-size: 0.8rem;
+      z-index: 20;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      border-radius: 5px;
+    }
+    .map-key strong {
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+    .map-key ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .map-key li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+    .key-dot {
+      display: inline-block;
+      width: .75vw;
+      height: .75vw;
+      min-width: 5px;
+      min-height: 5px;
+      max-width: 25px;
+      max-height: 25px;
+      margin-right: 6px;
+      border-radius: 50%;
+      border: 1px solid black;
+    }
   </style>
 </head>
 <body>
@@ -81,6 +121,23 @@
       id="platMap"
     />
     <div class="popup" id="popup"></div>
+  </div>
+
+  <div class="map-key">
+    <strong>Legend:</strong>
+    <ul>
+      <li><span class="key-dot" style="background-color: #FF0000;"></span> Existing Projects</li>
+      <li><span class="key-dot" style="background-color: #FD6A02;"></span> Enhanced Home Builders</li>
+      <li><span class="key-dot" style="background-color: #FEC20C;"></span> Visionary Homes</li>
+      <li><span class="key-dot" style="background-color: #000080;"></span> Holmes Homes</li>
+      <li><span class="key-dot" style="background-color: #930000;"></span> Ence Homes</li>
+      <li><span class="key-dot" style="background-color: #C44706;"></span> Smooth Stone USA</li>
+      <li><span class="key-dot" style="background-color: #9A7B4F;"></span> Richmond American Homes</li>
+      <li><span class="key-dot" style="background-color: #555555;"></span> Dennis Miller Homes</li>
+      <li><span class="key-dot" style="background-color: #008080;"></span> Obsidian</li>
+      <li><span class="key-dot" style="background-color: #006200;"></span> Parks</li>
+      <li><span class="key-dot" style="background-color: #000000;"></span> Unassigned</li>
+    </ul>
   </div>
 
   <script>
@@ -95,16 +152,19 @@
           marker.classList.add("marker");
           marker.style.top = markerData.top;
           marker.style.left = markerData.left;
+          if (markerData.color) {
+            marker.style.backgroundColor = markerData.color;
+          }
 
           marker.addEventListener("click", (e) => {
-            const { title, info, img, img2, link } = markerData;
+            const { title, info, img, img2, link, color } = markerData;
 
             popup.innerHTML = `
               <h3>${title}</h3>
               <a href="${link}" target="_blank">
                 <img src="${img}" alt="${title}" />
               </a>
-              ${img2 ? `<img src="${img2}" alt="${title} - extra image" />` : ""}
+              ${img2 ? `<a href="${link}" target="_blank"><img src="${img2}" alt="${title} extra image" /></a>` : ''}
               <p>${info}</p>
             `;
 
