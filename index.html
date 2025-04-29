@@ -83,6 +83,21 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
       border-radius: 5px;
     }
+    @media (max-width: 768px) {
+      .map-key {
+        position: fixed;
+        top: auto;
+        bottom: 10px;
+        right: 10px;
+        background: rgba(255, 255, 255);
+        border: 2px solid black;
+        padding: 10px;
+        font-size: 0.8rem;
+        z-index: 20;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        border-radius: 5px;
+      }
+    }
     .map-key strong {
       display: block;
       font-size: 1.2rem;
@@ -100,8 +115,8 @@
     }
     .key-dot {
       display: inline-block;
-      width: .75vw;
-      height: .75vw;
+      width: 12px;
+      height: 12px;
       min-width: 5px;
       min-height: 5px;
       max-width: 25px;
@@ -122,7 +137,7 @@
     />
     <div class="popup" id="popup"></div>
   </div>
-
+  
   <div class="map-key">
     <strong>Legend:</strong>
     <ul>
