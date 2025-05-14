@@ -197,7 +197,7 @@
         "info": "<p>Richmond American</P>", 
         "img": "Images/Richmond American Homes.jpg",
         "link": "https://www.richmondamerican.com/",
-        "color": "#930000"
+        "color": "#9A7B4F"
     },
     {
         "top": "42%", 
@@ -348,11 +348,11 @@
     {
         "top": "24.5%", 
         "left": "72%", 
-        "title": "Medical Center", 
+        "title": "Regional Medical Center", 
         "info": "<p></p>", 
         "img": "Images/Medical Center.jpg",
         "img2": "Images/Medical Center Plat.jpg",
         "link": "",
-        "color": ""
+        "color": "#360063"
     }
 ]
