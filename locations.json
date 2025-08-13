@@ -6,7 +6,7 @@
         "info": "<p>Nestled in a scenic setting, Aerie Resort offers a collection of comfortable and well-appointed vacation rentals, perfect for both small and large groups. Whether you're planning a family reunion, corporate retreat, or a getaway with friends, Aerie Resort provides spacious accommodations, with homes that can host up to 56 guests under one roof.</p> <p>Each home features inviting living spaces, well-equipped kitchens, and comfortable bedrooms, ensuring a relaxing and enjoyable stay. Guests have access to a community pool and large hot tub, ideal for unwinding after a day of adventure.</p> <p>With a focus on convenience and comfort, every home includes a variety of amenities to enhance your stay, from entertainment spaces to outdoor gathering areas. Aerie Resort is designed for connection and relaxation, offering a welcoming retreat for every occasion.</p>", 
         "img": "Images/Aerie Resort.jpg",
         "link": "https://book.sandhollow.rentals/",
-        "color": "#FF0000"
+        "color": "#808080"
     },
     { 
         "top": "39%", 
@@ -123,7 +123,7 @@
         "title": "Copper Vista Subdivision", 
         "info": "<p>Ence Homes</P>", 
         "img": "Images/Ence Homes.jpg",
-        "link": "https://www.encehomes.com/",
+        "link": "https://encehomes.com/",
         "color": "#930000"
     },
     {
@@ -150,7 +150,7 @@
         "title": "Copper Meadows Subdivision", 
         "info": "<p>Ence Homes</P>", 
         "img": "Images/Ence Homes.jpg",
-        "link": "https://www.encehomes.com/",
+        "link": "https://encehomes.com/",
         "color": "#930000"
     },
     {
@@ -196,7 +196,7 @@
         "title": "Red Slate Estates", 
         "info": "<p>Richmond American</P>", 
         "img": "Images/Richmond American Homes.jpg",
-        "link": "https://www.richmondamerican.com/",
+        "link": "https://richmondamerican.com/",
         "color": "#9A7B4F"
     },
     {
@@ -271,7 +271,7 @@
         "info": "<p>Welcome to Zion Utah Jellystone Park™, the newest RV park in Southern Utah. Located near Zion National Park and St. George, our park offers a unique blend of exciting outdoor activities, water attractions, and relaxing accommodations like RV sites and cabin rentals. Whether you’re looking to explore Zion’s beauty or enjoy family-friendly fun at our campground, we have everything you need for an unforgettable stay.</p><p>Access to our Water Zone and Floating Obstacle Course are included with every reservation.</p>", 
         "img": "Images/Zion Utah Jellystone Park.jpg",
         "link": "https://zionutahjellystonepark.com/",
-        "color": "#FF0000"
+        "color": "#808080"
     },
     {
         "top": "33%", 
@@ -280,7 +280,7 @@
         "info": "<p>The Ropes of Southern Utah is a premier aerial adventure destination designed to challenge, entertain, and inspire. The centerpiece is a professionally engineered multi-level ropes course, currently featuring 40+ obstacles with plans to expand to 60 elements by the end of 2025. The course offers five difficulty levels, including an all-abilities tier, ensuring a thrilling experience for both first-timers and seasoned climbers.</p><p>Beyond the ropes course, the complex boasts a variety of attractions, including bungee trampolines, HD golf simulators, and the Valo Arena, an immersive virtual gaming experience. On-site dining options like The Doughnuttery provide sweet treats to refuel after a day of adventure.</p><p>Whether you're seeking a family outing, a group event, or a personal challenge, The Ropes of Southern Utah offers an unforgettable blend of excitement and natural beauty. With its commitment to safety, inclusivity, and fun, it's the ultimate destination for adventurers of all ages.</p>", 
         "img": "Images/The Ropes of Southern Utah.jpg",
         "link": "https://theropesofsouthernutah.com/",
-        "color": "#FF0000"
+        "color": "#808080"
     },
     {
         "top": "31%", 
@@ -289,7 +289,7 @@
         "info": "<p>Discover the unparalleled experience at Utah Prep Academy, an international preparatory boarding school that seamlessly integrates top-tier academics, elite nationally ranked athletics, and an awe-inspiring campus. Situated on a stunning 55-acre property at the gateway to Zion National Park in Southern Utah, just 95 minutes from Las Vegas! Utah Prep Academy is where potential is unlocked and excellence thrives.</p><p>At Utah Prep, we are committed to academic distinction. We are in our third year with our Academic Partner Mount Vernon Academy who is celebrating their 50th year of academic excellence. Our curriculum is designed to challenge and inspire, fostering a love for learning and critical thinking. We believe in nurturing the whole student, ensuring they are prepared for success in higher education and beyond.</p><p>Utah Prep is home to our nationally ranked basketball team that has gained national recognition. Entering its fifth thrilling season, our basketball program has its roots in the high school development program of Major League Soccer’s Real Salt Lake. Athletes receive top-notch training while embodying the values of teamwork, discipline, and perseverance. Our program is tailored to develop not only outstanding athletes but also well-rounded individuals.</p><p>Experience the unique blend of world-class academics, elite athletics, and breathtaking natural beauty at Utah Prep Academy. Here, students are empowered to excel in every aspect of their lives, preparing them for a future filled with limitless possibilities.Discover the difference at Utah Prep Academy, where excellence meets opportunity. Join us and become a part of a tradition of Growth, Success and Achievement.</p>", 
         "img": "Images/Utah Prep Academy.jpg",
         "link": "https://utahprep.com/",
-        "color": "#FF0000"
+        "color": "#808080"
     },
     {
         "top": "41%", 
@@ -297,17 +297,18 @@
         "title": "Obsidian Resort", 
         "info": "<p>Powered by premier hospitality, the residential experience at Obsidian Resort & Residences encompasses seven courtyard garden buildings with expansive, design-centric homes with outdoor spaces—set against the cinematic backdrop of a pristine landscape. The residences offer a thoughtful counterpoint to a traditional hotel stay, anchored by all the conveniences, amenities, and hospitality services of a quintessential destination resort. The unique ownership structure offers buyers the opportunity to take advantage of the effortless in-house rental program to support their investment.</p>", 
         "img": "Images/Obsidian Resort.jpg",
-        "link": "https://www.obsidianresortandresidences.com/obsidian-residences",
+        "link": "https://obsidianresortandresidences.com/obsidian-residences",
         "color": "#008080"
     },
     {
         "top": "27.5%", 
         "left": "50%", 
-        "title": "Gas Satation", 
+        "title": "Maverik", 
         "info": "<p></p>", 
-        "img": "Images/Gas Station.jpg",
-        "link": "",
-        "color": ""
+        "img": "Images/Maverik.jpg",
+        "img2": "Images/Maverik Plat.jpg",
+        "link": "https://maverik.com/",
+        "color": "#FF0000"
     },
     {
         "top": "26.75%", 
