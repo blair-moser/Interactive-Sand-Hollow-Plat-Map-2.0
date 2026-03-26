@@ -204,7 +204,8 @@
         "left": "55%", 
         "title": "Peach Springs Subdivision", 
         "info": "<p>Smooth Stone</P>", 
-        "img": "Images/Smooth Stone.jpg",
+        "img": "Images/Peach Springs #1.jpg",
+        "img2": "Images/Smooth Stone.jpg",
         "link": "https://smoothstoneusa.com/",
         "color": "#C44706"
     },
@@ -314,8 +315,9 @@
         "top": "26.75%", 
         "left": "53.5%", 
         "title": "Food", 
-        "info": "<p></p>", 
-        "img": "Images/Food Strip.jpg",
+        "info": "<p>A small group of restaurants is planned for this location. Freddy’s Frozen Custard & Steakburgers is one of the confirmed tenants, with a couple additional restaurants expected to be added over time. This area is intended to provide convenient dining options for both residents and visitors.</p>", 
+        "img": "Images/FREDDY'S CUSTARD AND STEAKBURGERS.jpg",
+        "img2": "Images/Food Strip.jpg",
         "link": "",
         "color": ""
     },
